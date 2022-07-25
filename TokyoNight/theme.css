@@ -40,7 +40,7 @@
     color: @input_color;
     padding: 0px;
     margin-left: 15px;
-    border-bottom: 1px solid alpha(@window_border_color,0.2);
+    border-bottom: 1px solid alpha(@window_border_color,0.3);
 }
 
 /**
@@ -60,9 +60,12 @@
     color: @item_name;
 }
 
+.item-box {
+    border-bottom: 1px dashed alpha(@window_border_color, 0.1);
+}
+
 .selected.item-box {
     background-color: @item_box_selected;
-    border: 1px solid @window_border_color;
     border-radius: 15px;
 }
 
