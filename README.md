@@ -16,7 +16,7 @@ A theme for Ulancher inspired by [`Tokyo Night Theme`](https://github.com/enkia/
 
 mkdir -p ~/.config/ulauncher/user-themes
 git clone https://github.com/SirHades696/TokyoNight-Ulauncher-Theme \
-  ~/.config/ulauncher/user-themes/TokyoNight
+  ~/.config/ulauncher/user-themes/
 
 ```
 
