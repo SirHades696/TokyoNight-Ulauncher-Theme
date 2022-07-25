@@ -1,7 +1,7 @@
 /**
  * App Window
  */
-@define-color bg_color rgba(36, 40, 59, 0.8);
+@define-color bg_color rgba(36, 40, 59, 0.9);
 @define-color window_bg @bg_color;
 @define-color window_border_color rgba(42, 195, 222, 1);
 @define-color prefs_backgroud rgba(36, 40, 59, 1);
@@ -39,6 +39,8 @@
 .input {
     color: @input_color;
     padding: 0px;
+    margin-left: 15px;
+    border-bottom: 1px solid alpha(@window_border_color,0.2);
 }
 
 /**
